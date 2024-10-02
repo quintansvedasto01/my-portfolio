@@ -27,9 +27,9 @@ const closeBtn = document.querySelector('#close-btn');
 
 
 menuBtn.addEventListener('click', () => {
-    sideBarMenu.classList.toggle('right-0');
+    sideBarMenu.classList.toggle('left-0');
 });
 closeBtn.addEventListener('click', () => {
-    sideBarMenu.classList.remove('right-0');
+    sideBarMenu.classList.remove('left-0');
 });
 
