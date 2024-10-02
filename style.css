@@ -1,0 +1,4 @@
+/* Projects */
+.project-card:hover{
+    transform: translateY(-10px) !important;
+}
